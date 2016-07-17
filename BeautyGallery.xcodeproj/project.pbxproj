@@ -12,6 +12,9 @@
 		63EB6B411D3B108A00A976E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63EB6B3F1D3B108A00A976E0 /* Main.storyboard */; };
 		63EB6B431D3B108A00A976E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63EB6B421D3B108A00A976E0 /* Assets.xcassets */; };
 		63EB6B461D3B108A00A976E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63EB6B441D3B108A00A976E0 /* LaunchScreen.storyboard */; };
+		63EB6B4E1D3B13EE00A976E0 /* ViewControllerExtensionswift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EB6B4D1D3B13EE00A976E0 /* ViewControllerExtensionswift.swift */; };
+		63EB6B501D3B151400A976E0 /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EB6B4F1D3B151400A976E0 /* GalleryViewController.swift */; };
+		63EB6B521D3B582E00A976E0 /* KoreanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EB6B511D3B582E00A976E0 /* KoreanViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		63EB6B421D3B108A00A976E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63EB6B451D3B108A00A976E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63EB6B471D3B108A00A976E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63EB6B4D1D3B13EE00A976E0 /* ViewControllerExtensionswift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerExtensionswift.swift; sourceTree = "<group>"; };
+		63EB6B4F1D3B151400A976E0 /* GalleryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
+		63EB6B511D3B582E00A976E0 /* KoreanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KoreanViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,9 @@
 			children = (
 				63EB6B3B1D3B108A00A976E0 /* AppDelegate.swift */,
 				63EB6B3D1D3B108A00A976E0 /* ViewController.swift */,
+				63EB6B4D1D3B13EE00A976E0 /* ViewControllerExtensionswift.swift */,
+				63EB6B4F1D3B151400A976E0 /* GalleryViewController.swift */,
+				63EB6B511D3B582E00A976E0 /* KoreanViewController.swift */,
 				63EB6B3F1D3B108A00A976E0 /* Main.storyboard */,
 				63EB6B421D3B108A00A976E0 /* Assets.xcassets */,
 				63EB6B441D3B108A00A976E0 /* LaunchScreen.storyboard */,
@@ -136,7 +145,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				63EB6B3E1D3B108A00A976E0 /* ViewController.swift in Sources */,
+				63EB6B521D3B582E00A976E0 /* KoreanViewController.swift in Sources */,
+				63EB6B501D3B151400A976E0 /* GalleryViewController.swift in Sources */,
 				63EB6B3C1D3B108A00A976E0 /* AppDelegate.swift in Sources */,
+				63EB6B4E1D3B13EE00A976E0 /* ViewControllerExtensionswift.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
